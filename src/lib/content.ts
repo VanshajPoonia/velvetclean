@@ -82,7 +82,7 @@ export const team = [
 ];
 
 export const socials = [
-  { label: "Facebook", href: "#" },
-  { label: "Instagram", href: "#" },
-  { label: "X", href: "#" },
+  { label: "Facebook", href: "https://www.facebook.com/VelvetsTheOne" },
+  { label: "Instagram", href: "https://www.instagram.com/velvetcleaningllc/" },
+  { label: "X", href: "https://x.com/velvetstheone" },
 ];

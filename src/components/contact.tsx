@@ -52,6 +52,8 @@ export function Contact() {
                   <li key={s.label}>
                     <a
                       href={s.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-sm text-ink-muted transition-colors hover:text-gold-bright"
                     >
                       {s.label}
@@ -220,6 +222,8 @@ function Footer() {
             <li key={s.label}>
               <a
                 href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm text-ink-muted transition-colors hover:text-gold-bright"
               >
                 {s.label}

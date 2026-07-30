@@ -2,6 +2,7 @@ import { Hero } from "@/components/hero";
 import { About } from "@/components/about";
 import { Services } from "@/components/services";
 import { Process } from "@/components/process";
+import { Team } from "@/components/team";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <Services />
       <Process />
+      <Team />
     </main>
   );
 }
